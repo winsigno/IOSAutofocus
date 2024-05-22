@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-autofocus"
+        version="1.0.0">
+    <name>AutoFocus</name>
+    <description>Custom plugin to add autofocus functionality to barcode scanner</description>
+    <license>MIT</license>
+    <keywords>cordova, autofocus, barcode</keywords>
+    <platform name="ios">
+        <source-file src="src/ios/AutoFocusPlugin.m" target-dir="Plugins/cordova-plugin-autofocus" />
+        <header-file src="src/ios/AutoFocusPlugin.h" target-dir="Plugins/cordova-plugin-autofocus" />
+    </platform>
+</plugin>
